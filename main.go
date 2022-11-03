@@ -3,10 +3,10 @@ package main
 import (
 	"flag"
 	"fmt"
+	"github.com/esirangelomub/go-web-crawler/db"
 	"net/http"
 	"net/url"
 	"time"
-	"web-crawler/db"
 
 	"golang.org/x/net/html"
 )
